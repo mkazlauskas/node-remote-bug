@@ -1,0 +1,6 @@
+{
+	"name": "myapp",
+	"main": "index.html",
+  "node-remote": "<all_urls>",
+  "inject_js_end": "inject.js"
+}
