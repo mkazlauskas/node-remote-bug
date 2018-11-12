@@ -5,11 +5,11 @@
   </head>
   <body>
     <!-- this works as expected -->
-    <iframe id="iframe" src="frame.html"></iframe>
+    <iframe src="frame.html"></iframe>
     <!-- this should work too as file:// is in allowed schemes -->
     <iframe src="file:///tmp/mozilla_mkazlauskas0/iframeUsingNode/frame.html"></iframe>
     <!-- this isn't in allowed schemes, so I guess it's not a bug.
       However, I really need a way to run preload script that can communicate with my app (if not full node integration, then at least sending messages back and forth) -->
-    <iframe id="iframe" src="about:blank"></iframe>
+    <iframe src="about:blank"></iframe>
   </body>
 </html>
